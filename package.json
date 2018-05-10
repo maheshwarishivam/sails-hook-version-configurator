@@ -1,0 +1,44 @@
+{
+  "name": "sails-hook-version-configurator",
+  "version": "1.0.0",
+  "description": "Sails JS hook to make the app version from package.json available in sails config",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests/runner",
+    "test-all": "node tests/runner all",
+    "autotest": "mocha --watch --reporter spec tests/**/*Test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/maheshwarishivam/sails-hook-version-configurator.git"
+  },
+  "author": "Shivam Maheshwari <sayhello@shivammaheshwari.com> (http://www.shivammaheshwari.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maheshwarishivam/sails-hook-version-configurator/issues"
+  },
+  "homepage": "https://github.com/maheshwarishivam/sails-hook-version-configurator",
+  "sails": {
+    "isHook": true
+  },
+  "keywords": [
+    "sails",
+    "sails.js",
+    "sails-hook",
+    "version-configurator",
+    "version",
+    "version in config",
+    "sails.config.version"
+  ],
+  "devDependencies": {
+    "glob": "^4.5.3",
+    "mocha": "^2.5.3",
+    "sails": "^1.0.2"
+  },
+  "contributors": [
+    "Shivam Maheshwari"
+  ],
+  "directories": {
+    "test": "tests"
+  }
+}
